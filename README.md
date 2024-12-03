@@ -38,12 +38,11 @@ SecureStore is an advanced secure file storage system developed in Java, designe
 ## Installation
 1. Clone the Repository:
         ```bash
-        git clone https://github.com/yourusername/SecureStore.git
+        git clone https://github.com/1lker/secure-store.git
         cd SecureStore
         ```
 2. Ensure the Project Structure:
         Make sure the following directory structure exists:
-        ```plaintext
         SecureStore/
         ├── pom.xml
         ├── src/
@@ -58,7 +57,6 @@ SecureStore is an advanced secure file storage system developed in Java, designe
         │   └── resources/
         └── secure_files/
                 └── sample.txt
-        ```
         Create a `secure_files` folder in the project root and add a test `sample.txt` file for demonstration.
 3. Build the Project:
         ```bash
@@ -66,7 +64,7 @@ SecureStore is an advanced secure file storage system developed in Java, designe
         ```
 4. Run the Application:
         ```bash
-        mvn exec:java
+        mvn exec:java -Dexec.mainClass="com.securestore.SecureStoreApplication"
         ```
 
 ## Usage
