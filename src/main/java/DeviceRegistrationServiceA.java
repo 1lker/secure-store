@@ -1,4 +1,3 @@
-package com.securestore.services;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
