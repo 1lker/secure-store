@@ -43,6 +43,7 @@ SecureStore is an advanced secure file storage system developed in Java, designe
         ```
 2. Ensure the Project Structure:
         Make sure the following directory structure exists:
+    ```plaintext
         SecureStore/
         ├── pom.xml
         ├── src/
@@ -56,7 +57,9 @@ SecureStore is an advanced secure file storage system developed in Java, designe
         │   │   │           └── SecureStoreApplication.java
         │   └── resources/
         └── secure_files/
-                └── sample.txt
+            └── sample.txt
+    ```            
+    
         Create a `secure_files` folder in the project root and add a test `sample.txt` file for demonstration.
 3. Build the Project:
         ```bash
